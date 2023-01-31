@@ -1,6 +1,8 @@
 # Movie-Trailer-Review-App
 A Website to run trailers and write reviews Using Spring, ReactJS and MongoDB as the Database.
 
+Following along this video by FreeCodeCamp - https://www.youtube.com/watch?v=5PdEmeopJVQ
+
 Using TMDB API to get images
 Movie JSON Repository - https://github.com/fhsinchy/movieist
 
