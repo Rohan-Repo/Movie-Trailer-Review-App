@@ -1,0 +1,22 @@
+/* Import QuickSand Font from Google API */
+@import url('https://fonts.googleapis.com/css2?family="Quicksand&display=swap');
+
+/* Set Box-Sizing and Font-family values for all elements so (*) */
+*{
+  box-sizing: border-box;
+  font-family: 'QuickSand', Arial, Helvetica, sans-serif;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: black;
+  color: aquamarine;
+  margin-top: 10px;
+}
