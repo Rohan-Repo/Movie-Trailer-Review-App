@@ -1,0 +1,83 @@
+{
+	"info": {
+		"_postman_id": "c5f2dfda-d6df-43f8-adb2-8afda9210d24",
+		"name": "Movies-API_Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "8992760"
+	},
+	"item": [
+		{
+			"name": "Get-All-Movies",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/movies",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"movies"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get-Movies-With-IMDBId",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/movies/tt8093700",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"movies",
+						"tt8093700"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post-Reviews",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"reviewBody\": \"Enjoyed the movie - The Woman King\",\r\n    \"imdbId\": \"tt8093700\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/reviews",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"reviews"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
